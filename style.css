@@ -1,0 +1,136 @@
+body{
+    text-align: center;
+    margin: 0px;
+    padding-top: 800px;
+    background-image: url('background.webp');
+    color: #383838;
+    margin-bottom: 5px;
+}
+
+.perfil{
+    width: 60%;
+}
+
+#welcome{
+    position: absolute;
+    bottom: 0px;
+    display: table;
+    width: 100%;
+    height: 100%;
+	font-family: 'Minecraft', sans-serif;  
+	text-shadow: 0.2vw 0.2vw 0 #383838;
+    background: #303030 url("minecraft.jpg") repeat-x 0 0;
+	background-size: cover;
+	animation: MinecraftBackground 165s linear infinite;
+    color: darkgrey;
+}
+#welcome h1 {
+        
+}
+
+#welcome h2 {
+    font-family: Arial-Black;
+    text-shadow: none;
+    color: whitesmoke; 
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Minecraft', sans-serif;
+    font-weight: 300;
+    color: #383838;
+}
+
+#name{
+    font-size: 50px;
+    color: darkgrey;
+    font-family: 'Minecraft', sans-serif;  
+	text-shadow: 0.2vw 0.2vw 0 #383838;
+      
+}
+
+h2{
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+#bio {
+    padding: 50px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.line {
+    width: 70px;
+    height: 6px;
+    margin: 8px auto;
+    background-color: rgb(30, 30, 36);
+}
+
+.interno {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu {
+    position: fixed;
+    margin-top: 0px;
+    top: 0px;
+    cursor: pointer;
+    z-index: 10;  
+    background: white;  
+    width: 100%;    
+}
+
+.link {
+    display: inline;
+    float: none;
+    color: rgb(29, 28, 36) !important;
+    font-family: 'Minecraft', sans-serif;                                                
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-bottom: 9px;
+    padding-left: 33px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+.link:hover {
+    font-size: 25px;
+    color: #807c7c !important;
+    text-decoration: underline; 
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(29, 28, 36) !important;
+}
+
+#curiosidades a {
+    text-decoration: underline !important;
+    color: rgb(29, 28, 36) !important;
+}
+
+#contato iframe {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#contato {
+    background: lightgray;
+}
+
+.contato1 h3 {
+    display: inline;
+}
+
+@keyframes MinecraftBackground {
+    0% {
+   background-position: 0 0;
+   }
+    100% {
+   background-position: -4096px 0;
+   }
+   }
